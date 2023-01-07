@@ -53,14 +53,12 @@ public class UserChecks {
     }
 
     @Step("Login failed")
-    public String loggedInUnsuccessfully(ValidatableResponse loginResponse, String email, String name) {
+    public String loggedInUnsuccessfully(ValidatableResponse loginResponse) {
         return loginResponse
                 .assertThat()
                 .statusCode(HTTP_UNAUTHORIZED)
                 .and()
                 .body("message", not(blankOrNullString()))
-                .body("user.email", equalTo(email.toLowerCase())).and()
-                .body("user.name", equalTo(name)).and()
                 .extract()
                 .path("message");
     }

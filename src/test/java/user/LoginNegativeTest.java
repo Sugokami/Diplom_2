@@ -38,7 +38,7 @@ public class LoginNegativeTest {
     public void testCheckUserNameAndResponseBody() {
         Login login1 = new Login(email, password);
         ValidatableResponse loginResponse = client.logIn(login1);
-        var messageResponse = check.loggedInUnsuccessfully(loginResponse, email, password);
+        var messageResponse = check.loggedInUnsuccessfully(loginResponse);
         assertThat(messageResponse, containsString("email or password are incorrect"));
     }
 }

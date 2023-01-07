@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ee8e00-fe29-43cc-95f7-fd9e686039a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/order/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/user/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/user/UserChecks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/user/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/order/CreateOrderNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/order/CreateOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/order/GetOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/user/CreateLoginPositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/user/CreateUserNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/user/EditUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/user/LoginNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/user/UserChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/user/UserChecks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/LoginNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/LoginNegativeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginNegativeTest.testCheckUserNameAndResponseBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +115,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="user" />
       <option name="MAIN_CLASS_NAME" value="user.LoginNegativeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testCheckUserNameAndResponseBody" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,10 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EditUserTest" />
+        <item itemvalue="JUnit.LoginNegativeTest.testCheckUserNameAndResponseBody" />
         <item itemvalue="JUnit.EditTest2.UserEditingUnauthorizedTest" />
         <item itemvalue="JUnit.EditUserTest.UserEditingUnauthorizedTest" />
         <item itemvalue="JUnit.EditUserTest.checkUserEditing" />
-        <item itemvalue="JUnit.LoginNegativeTest" />
       </list>
     </recent_temporary>
   </component>
